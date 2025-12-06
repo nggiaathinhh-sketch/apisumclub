@@ -1,0 +1,27 @@
+{
+  "name": "ai-taixiu-sumclub-api",
+  "version": "1.0.0",
+  "description": "API server with AI prediction for Tai Xiu (Lucky Dice) game.",
+  "main": "apisumclub.js",
+  "type": "module",
+  "scripts": {
+    "start": "node apisumclub.js",
+    "dev": "node --watch apisumclub.js"
+  },
+  "keywords": [
+    "taixiu",
+    "fastify",
+    "ai",
+    "node"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.5.0",
+    "fastify": "^4.25.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
